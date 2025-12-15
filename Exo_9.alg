@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="AFFICHER &quot;Saississez un nombre de 1 à 9 : &quot;"/>
+    <description texte="" courant="AFFICHER &quot;Saississez un nombre de 1 à 9 : Non je veux faire ça Vincent&quot;"/>
     <extension extnom="inactif"/>
     <fonction fctcode="" fctetat="inactif"/>
     <F2 F2etat="inactif" F2lignes="" F2para="" F2defaut=""/>
@@ -11,7 +11,7 @@
         <item algoitem="Jour EST_DU_TYPE NOMBRE" code="1#NOMBRE#Jour"/>
     </item>
     <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo">
-        <item algoitem="AFFICHER &quot;Saississez un nombre de 1 à 9 : &quot;" code="4#Saississez un nombre de 1 à 9 : #1"/>
+        <item algoitem="AFFICHER &quot;Saississez un nombre de 1 à 9 : Non je veux faire ça Vincent&quot;" code="4#Saississez un nombre de 1 à 9 : Non je veux faire ça Vincent#1"/>
         <item algoitem="LIRE Jour" code="2#Jour#pasliste"/>
         <item algoitem="SI (Jour=1) ALORS" code="6#Jour=1">
             <item algoitem="DEBUT_SI" code="7#debutsi"/>
